@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+  </head>
+  <body>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+      <h2>status</h2>
+      <ul>
+        <li><a href="https://status.chrissearle.net/munin/">Munin</a></li>
+        <li><a href="https://status.chrissearle.net/nagios3/">Nagios</a></li>
+        <li><a href="https://status.chrissearle.net/drupal/">Drupal versions</a></li>
+      </ul>
+      <h2>dev</h2>
+      <ul>
+        <li><a href="http://dev.chrissearle.net/nexus/index.html">Nexus</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
