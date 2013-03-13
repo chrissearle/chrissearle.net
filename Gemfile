@@ -1,10 +1,8 @@
 source :rubygems
 
 gem 'nanoc'
-gem 'kramdown'
-gem 'sass'
 gem 'adsf'
+gem 'rainpress'
 gem 'fssm'
-gem 'tzinfo'
-gem 'builder'
+gem 'nutils'
 gem 'systemu'
