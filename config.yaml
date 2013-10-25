@@ -84,8 +84,8 @@ deploy:
   status:
     options: [ '-rvz' ]
     kind: rsync
-    dst:  "menavaur.chrissearle.org:/srv/www/status.chrissearle.net/htdocs"
+    dst:  "bryanek.chrissearle.org:/srv/www/status.chrissearle.net/htdocs"
   dev:
     options: [ '-rvz', '--delete-after' ]
     kind: rsync
-    dst:  "menavaur.chrissearle.org:/srv/www/dev.chrissearle.net/htdocs"
+    dst:  "bryanek.chrissearle.org:/srv/www/dev.chrissearle.net/htdocs"
